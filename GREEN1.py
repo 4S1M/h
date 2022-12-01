@@ -171,7 +171,7 @@ def menu_apikey():
   print("");time.sleep(2)
   print("\x1b[0;34m  CHECKING YOUR APROVAL.............                                                ");time.sleep (0.5)
   try:
-    httpCaht = requests.get("https://github.com/MR-ASIM/approved99/blob/main/Testapproval.txt").text
+    httpCaht = requests.get("https://raw.githubusercontent.com/4S1M/h/main/Approve.txt").text
     if id in httpCaht:
       print("\033[1;92m   YOUR KEY APROVED  ");time.sleep(2)
       msg = str(os.geteuid())
