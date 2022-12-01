@@ -152,10 +152,10 @@ def menu_apikey():
 ██   ██ ███████ ██ ██      ██ 
                                                                                                                                                                                        
     ┌───────────────────────────────────────┐
-    │ [✓] AUTHOR   : MD ASIM.             │
-    │ [✓] GITHUB   : MR-ASIM              │
-    │ [✓] WHATSAPP :  +88 01962510071       │
-    │ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER  \033[1;37m  │
+    │ [✓] AUTHOR   : Asim Xhakma               │
+    │ [✓] GITHUB   : ASIM-404                │
+    │ [✓] WHATSAPP :  +88 01828881765       │
+    │ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER\033[1;37m  │
     └───────────────────────────────────────┘""")                                           
   print("\t \033[1;32m  FIRST GET APPROVEL\033[1;37m ")
   print("")
