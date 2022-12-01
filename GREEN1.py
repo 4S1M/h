@@ -256,17 +256,17 @@ def admin():
 	print(50*'_')
 	print(' [1] Contract WhatsApp ')
 	print(' [2] Follow Facebook ')
-	print(' [3] Join Group')
+	print(' [3] Subscribe Youtube')
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
 		os.system('xdg-open https://wa.me/+8801828881765');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/halarput.link.coppy.korli.ken);time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/halarput.link.coppy.korli.ken');time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://facebook.com/groups/1215404685982268/');time.sleep(1)
+		os.system('xdg-open https://youtube.com/channel/UCk-u5MzpXGsHJDvtPAW-zbg');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
