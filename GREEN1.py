@@ -181,7 +181,7 @@ def menu_apikey():
       
       print("\x1b[1;92m    Sorry Bro Your Key not Aproved ")
       print("    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system('xdg-open https://wa.me/+8801735475813?text='+id)
+      os.system('xdg-open https://wa.me/+8801828881765?text='+id)
       time.sleep(2)
       sys.exit()
   except:
@@ -232,7 +232,7 @@ def Main():
 	print(logo)
 	print('[1] BD Number Cloner [CP-OK MIX] ')
 	print("[2] BD Number cloner [Only Ok]")
-	print("[3] BD Number cloner [APK] ")
+	print("[3] BD Number cloner [APK Show] ")
 	print("[4] Contract Admin [Report a problem]")
 	print('[0] Back')
 	print(54*'_')
@@ -256,17 +256,17 @@ def admin():
 	print(50*'_')
 	print(' [1] Contract WhatsApp ')
 	print(' [2] Follow Facebook ')
-	print(' [3] Subscribe Youtube')
+	print(' [3] Join Group')
 	print(' [0] Back to Main menu')
 	bal = input('Choose option >>> ')
 	if bal =='1':
-		os.system('xdg-open https://wa.me/+8801962510071');time.sleep(1)
+		os.system('xdg-open https://wa.me/+8801828881765');time.sleep(1)
 		admin()
 	if bal =='2':
-		os.system('xdg-open https://www.facebook.com/ASIM.909');time.sleep(1)
+		os.system('xdg-open https://www.facebook.com/halarput.link.coppy.korli.ken);time.sleep(1)
 		admin()
 	if bal =='3':
-		os.system('xdg-open https://youtube.com/channel/UCk-u5MzpXGsHJDvtPAW-zbg');time.sleep(1)
+		os.system('xdg-open https://facebook.com/groups/1215404685982268/');time.sleep(1)
 		admin()
 	if bal =='0':
 		Main()
