@@ -145,11 +145,11 @@ def menu_apikey():
   os.system(" clear")                          
   print("""\033[1;37m
 
- █████  ███████ ██ ███    ███ 
-██   ██ ██      ██ ████  ████ 
-███████ ███████ ██ ██ ████ ██ 
-██   ██      ██ ██ ██  ██  ██ 
-██   ██ ███████ ██ ██      ██                                                                                                                                                                                        
+      █████  ███████ ██ ███    ███ 
+     ██   ██ ██      ██ ████  ████ 
+     ███████ ███████ ██ ██ ████ ██ 
+     ██   ██      ██ ██ ██  ██  ██ 
+     ██   ██ ███████ ██ ██      ██                                                                                                                                                                                        
     ┌───────────────────────────────────────┐
     │ [✓] AUTHOR   : Asim Xhakma            │
     │ [✓] GITHUB   : ASIM-404               │
@@ -198,14 +198,12 @@ logo=("""\033[1;37m
 ███████ ███████ ██ ██ ████ ██ 
 ██   ██      ██ ██ ██  ██  ██ 
 ██   ██ ███████ ██ ██      ██ 
-                                                                                                                                                                
-
-                                                                
+                                                                                                                                                                                                                                
     ┌───────────────────────────────────────┐
-    │ [✓] AUTHOR   :  ASIM XHAKMA             │
-    │ [✓] GITHUB   : TOXIC-ASIM              │
+    │ [✓] AUTHOR   : Asim Xhakma            │
+    │ [✓] GITHUB   : ASIM-404               │
     │ [✓] WHATSAPP :  +88 01828881765       │
-    │ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER  \033[1;37m  │
+    │ [✓] TOOLS    : \033[1;32m RANDOM NUMBER CLONER\033[1;37m  │
     └───────────────────────────────────────┘""")
 def cek_apk(session,coki):
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
